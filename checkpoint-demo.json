@@ -1,0 +1,34 @@
+{
+  "taskId": "demo-001",
+  "currentStep": 1,
+  "contextHistory": [
+    "用户需求：读取两份文档，修改并新增一份文档"
+  ],
+  "pendingTasks": [
+    {
+      "id": "t1",
+      "type": "read",
+      "description": "读取文档A",
+      "status": "done"
+    },
+    {
+      "id": "t2",
+      "type": "read",
+      "description": "读取文档B",
+      "status": "done"
+    },
+    {
+      "id": "t3",
+      "type": "write",
+      "description": "修改文档C",
+      "status": "done"
+    },
+    {
+      "id": "t4",
+      "type": "write",
+      "description": "新增文档D",
+      "status": "done"
+    }
+  ],
+  "createdAt": 1789997870523
+}
